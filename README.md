@@ -9,6 +9,15 @@ nodemon
 ### EXAMPLE QUERIES:
 
 ```
+query ExampleQuery {
+  games {
+    title,
+    platform
+  }
+}
+```
+
+```
 query ExampleQuery($id: ID!) {
   author(id: $id) {
     name
